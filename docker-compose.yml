@@ -1,0 +1,23 @@
+services:
+  jekyll:
+    image: ruby:3.3-slim
+    ports:
+      - "4000:4000"
+      - "35729:35729"
+    volumes:
+      - .:/app
+      - bundle_cache:/usr/local/bundle
+    working_dir: /app
+    environment:
+      - JEKYLL_ENV=development
+      - RUBYOPT=-W0
+    command: >
+      sh -c "
+        apt-get update -qq && apt-get install -y -qq build-essential git &&
+        gem install bundler --quiet &&
+        bundle install --quiet &&
+        bundle exec jekyll serve --host 0.0.0.0 --baseurl '' --livereload --livereload-port 35729
+      "
+
+volumes:
+  bundle_cache:

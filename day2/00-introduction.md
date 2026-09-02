@@ -1,0 +1,112 @@
+---
+layout: page
+title: "Introduction to R"
+parent: "Day 2: Programming with R"
+nav_order: 1
+---
+
+<div class="carpentries-objectives" markdown="1">
+**Learning Objectives**
+
+
+- Know advantages of analyzing data in R
+
+</div>
+
+
+<div class="carpentries-questions" markdown="1">
+**Questions**
+
+
+- Why use R?
+
+</div>
+
+
+## Getting ready to use R for the first time
+
+In this lesson we will take you through the very first things you need to get
+R working.
+
+## A Brief History of R
+
+[The programming language R](https://en.wikipedia.org/wiki/R_\(programming_language\)) has been around
+since 1995, and was created by Ross Ihaka and Robert Gentleman at the University
+of Auckland, New Zealand. R is based off the S programming language developed
+at Bell Labs and was developed to teach intro statistics. See this [slide deck](https://www.stat.auckland.ac.nz/~ihaka/downloads/Massey.pdf)
+by Ross Ihaka for more info on the subject.
+
+## Advantages of using R
+
+At more than 20 years old, R is fairly mature and [growing in popularity](https://www.tiobe.com/tiobe-index/r/). However, programming isn't a popularity contest. Here are key advantages of
+analyzing data in R:
+
+- **R is [open source](https://en.wikipedia.org/wiki/Open-source_software)**.
+  This means R is free - an advantage if you are at an institution where you
+  have to pay for your own MATLAB or SAS license. Open source, is important to
+  your colleagues in parts of the world where expensive software in
+  inaccessible. It also means that R is actively developed by a community (see
+  [r-project.org](https://www.r-project.org/)),
+  and there are regular updates.
+- **R is widely used**. Ok, maybe programming is a popularity contest. Because,
+  R is used in many areas (not just bioinformatics), you are more likely to
+  find help online when you need it. Chances are, almost any error message you
+  run into, someone else has already experienced.
+- **R is powerful**. R runs on multiple platforms (Windows/MacOS/Linux). It can
+  work with much larger datasets than popular spreadsheet programs like
+  Microsoft Excel, and because of its scripting capabilities is far more
+  reproducible. Also, there are thousands of available software packages for
+  science, including genomics and other areas of life science.
+
+## R on UVA HPC
+
+On the UVA HPC system, R is available through our module system.  For example, to load R, you can type:
+
+```bash
+module load gcc/11.4.0 openmpi/4.1.4 R/4.4.1
+```
+
+and press <kbd>Return</kbd>. Now type the following to get into the R environment
+
+```bash
+R
+```
+
+and press <kbd>Return</kbd>. You should see output on the screen which looks like this :
+
+```
+R version 4.4.1 (2024-06-14) -- "Race for Your Life"
+Copyright (C) 2024 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> 
+
+```
+
+You now have a prompt `>` where you can enter R commands.
+
+
+
+
+<div class="carpentries-keypoints" markdown="1">
+**Key Points**
+
+
+- R is a powerful, popular open-source scripting language
+
+</div>
+

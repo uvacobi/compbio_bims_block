@@ -1,0 +1,49 @@
+title: "BIMS 6000: Comp Bio"
+tagline: "Block 3.5 — Computational Biology"
+description: >
+  Computational Biology module for the UVA BIMS 6000 Core Course.
+  Covers HPC access, UNIX shell, R programming, and RNA-seq analysis.
+author: Aakrosh Ratan and Stefan Bekiranov
+baseurl: '/compbio_bims_block'
+url: 'https://uvacobi.github.io'
+exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md", "convert_carpentries.py"]
+
+# Just the Docs theme
+theme: just-the-docs
+color_scheme: light
+search_enabled: true
+heading_anchors: true
+permalink: pretty
+back_to_top: true
+back_to_top_text: Back to top
+
+footer_content: ""
+
+# Navigation
+nav_sort: order  # use nav_order front matter
+
+# Collections
+collections:
+  staffers:
+
+defaults:
+  - scope:
+      path: ''
+      type: staffers
+    values:
+      layout: staffer
+      subpath: '/assets/images/'
+
+sass:
+  quiet_deps: true
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
+
+plugins:
+  - jekyll-seo-tag

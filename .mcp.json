@@ -1,0 +1,16 @@
+{
+    "mcpServers": {
+      "hpc": {
+        "command": "/Users/aakroshratan/.local/bin/uv",
+        "args": [
+          "run",
+          "--project", "/Users/aakroshratan/Workspace/Projects/misc/hpc",
+          "python", "/Users/aakroshratan/Workspace/Projects/misc/hpc/server.py"
+        ],
+        "env": {
+            "HPC_HOST": "login.hpc.virginia.edu",
+            "HPC_USER": "ar7jq"
+        }
+      }
+    }
+}

@@ -1,0 +1,115 @@
+// ── UVA header / nav overrides ────────────────────────────────────────────────
+.site-header {
+  background-color: #232D4B;
+  border-bottom: 3px solid #E57200;
+}
+
+// Site title — white text on navy header, allow wrapping if needed
+.site-title,
+.site-header .site-title {
+  color: #ffffff !important;
+  font-weight: 700;
+  line-height: 1.3;
+  height: auto !important;
+  max-height: none !important;
+  white-space: normal;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+// Search icon / hamburger on nav bar
+.site-header .btn {
+  color: #ffffff;
+}
+
+// Sidebar nav links
+.site-nav {
+  background-color: #232D4B;
+
+  .nav-list-link {
+    color: rgba(255, 255, 255, 0.82);
+    &:hover { color: #ffffff; }
+  }
+
+  .nav-list-item.active > .nav-list-link {
+    color: #E57200;
+    font-weight: 600;
+  }
+
+  // Child items in nav
+  .nav-list .nav-list-link {
+    color: rgba(255, 255, 255, 0.75);
+    &:hover { color: #ffffff; }
+  }
+}
+
+// ── Code ──────────────────────────────────────────────────────────────────────
+code {
+  font-size: 14px;
+  padding: 0.2em 0.4em;
+  border: none;
+  background-color: #f0f3f8;
+  border-radius: 3px;
+}
+
+// ── Details/summary (solutions) ───────────────────────────────────────────────
+details {
+  margin: 0 0 1em;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  padding: 0.5em 1em;
+}
+details[open] { background: #f8f9fa; }
+summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: #232D4B;
+  padding: 0.25em 0;
+  &:hover { color: #E57200; }
+}
+
+// ── Carpentries callout boxes ─────────────────────────────────────────────────
+@mixin callout($bg, $border, $label-color: #333) {
+  background: $bg;
+  border-left: 4px solid $border;
+  border-radius: 0 6px 6px 0;
+  padding: 0.75em 1em 0.75em 1.25em;
+  margin: 1.25em 0;
+  > strong:first-child,
+  > p:first-child > strong:first-child {
+    color: $label-color;
+    display: block;
+    font-size: 0.85em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5em;
+  }
+}
+
+.carpentries-objectives  { @include callout(#eef4fb, #2980b9,  #1a6091); }
+.carpentries-questions   { @include callout(#fef9ee, #E57200,  #b35900); }
+.carpentries-keypoints   { @include callout(#eafaf1, #27ae60,  #1a7a41); }
+.carpentries-challenge   { @include callout(#fef9e7, #e67e22,  #b35e00); }
+.carpentries-callout     { @include callout(#f5f6f7, #8d9db6,  #555);   }
+.carpentries-prereq      { @include callout(#fdf2f8, #8e44ad,  #6c3483); }
+.carpentries-discussion  { @include callout(#eafaf1, #1abc9c,  #148f77); }
+.carpentries-warning     { @include callout(#fdecea, #e74c3c,  #a93226); }
+
+// ── Schedule table ────────────────────────────────────────────────────────────
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  th {
+    background: #232D4B;
+    color: #ffffff;
+    padding: 0.6em 1em;
+    text-align: left;
+  }
+  td {
+    padding: 0.5em 1em;
+    border-bottom: 1px solid #e1e5eb;
+    vertical-align: top;
+  }
+  tr:nth-child(even) td { background: #f5f6f9; }
+  a { color: #E57200; font-weight: 500; }
+}

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 190" width="580" height="190">
+  <defs>
+    <!-- Folder shape: tab + body -->
+    <g id="folder">
+      <rect x="0" y="8" width="70" height="50" rx="3" fill="#ffcc00" stroke="#d4aa00" stroke-width="1.2"/>
+      <rect x="0" y="0" width="28" height="12" rx="3" fill="#d4aa00"/>
+    </g>
+  </defs>
+
+  <!-- Hard drive / root icon -->
+  <rect x="247" y="4" width="86" height="52" rx="6" fill="#e0e0e0" stroke="#999" stroke-width="1.5"/>
+  <rect x="257" y="38" width="66" height="8" rx="2" fill="#bbb"/>
+  <circle cx="307" cy="42" r="3" fill="#888"/>
+  <text x="290" y="28" font-family="'Courier New', monospace" font-size="18" font-weight="bold"
+        text-anchor="middle" fill="#232D4B">/</text>
+
+  <!-- Trunk line down from root -->
+  <line x1="290" y1="56" x2="290" y2="100" stroke="#555" stroke-width="1.5"/>
+  <!-- Horizontal crossbar -->
+  <line x1="47" y1="100" x2="533" y2="100" stroke="#555" stroke-width="1.5"/>
+
+  <!-- Drop lines to each folder -->
+  <line x1="47"  y1="100" x2="47"  y2="120" stroke="#555" stroke-width="1.5"/>
+  <line x1="162" y1="100" x2="162" y2="120" stroke="#555" stroke-width="1.5"/>
+  <line x1="290" y1="100" x2="290" y2="120" stroke="#555" stroke-width="1.5"/>
+  <line x1="418" y1="100" x2="418" y2="120" stroke="#555" stroke-width="1.5"/>
+  <line x1="533" y1="100" x2="533" y2="120" stroke="#555" stroke-width="1.5"/>
+
+  <!-- bin folder -->
+  <g transform="translate(12,120)">
+    <rect x="0" y="8" width="70" height="48" rx="3" fill="#ffcc00" stroke="#d4aa00" stroke-width="1.2"/>
+    <rect x="0" y="0" width="26" height="12" rx="3" fill="#d4aa00"/>
+  </g>
+  <text x="47" y="184" font-family="'Courier New', monospace" font-size="13"
+        text-anchor="middle" fill="#1a1a2e">bin</text>
+
+  <!-- home folder -->
+  <g transform="translate(127,120)">
+    <rect x="0" y="8" width="70" height="48" rx="3" fill="#ffcc00" stroke="#d4aa00" stroke-width="1.2"/>
+    <rect x="0" y="0" width="30" height="12" rx="3" fill="#d4aa00"/>
+  </g>
+  <text x="162" y="184" font-family="'Courier New', monospace" font-size="13"
+        text-anchor="middle" fill="#1a1a2e">home</text>
+
+  <!-- scratch folder -->
+  <g transform="translate(255,120)">
+    <rect x="0" y="8" width="70" height="48" rx="3" fill="#ffcc00" stroke="#d4aa00" stroke-width="1.2"/>
+    <rect x="0" y="0" width="36" height="12" rx="3" fill="#d4aa00"/>
+  </g>
+  <text x="290" y="184" font-family="'Courier New', monospace" font-size="13"
+        text-anchor="middle" fill="#1a1a2e">scratch</text>
+
+  <!-- tmp folder -->
+  <g transform="translate(383,120)">
+    <rect x="0" y="8" width="70" height="48" rx="3" fill="#ffcc00" stroke="#d4aa00" stroke-width="1.2"/>
+    <rect x="0" y="0" width="26" height="12" rx="3" fill="#d4aa00"/>
+  </g>
+  <text x="418" y="184" font-family="'Courier New', monospace" font-size="13"
+        text-anchor="middle" fill="#1a1a2e">tmp</text>
+
+  <!-- usr folder -->
+  <g transform="translate(498,120)">
+    <rect x="0" y="8" width="70" height="48" rx="3" fill="#ffcc00" stroke="#d4aa00" stroke-width="1.2"/>
+    <rect x="0" y="0" width="26" height="12" rx="3" fill="#d4aa00"/>
+  </g>
+  <text x="533" y="184" font-family="'Courier New', monospace" font-size="13"
+        text-anchor="middle" fill="#1a1a2e">usr</text>
+</svg>

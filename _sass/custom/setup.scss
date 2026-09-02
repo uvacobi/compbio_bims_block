@@ -1,0 +1,11 @@
+// ── UVA color overrides — loaded BEFORE just-the-docs color schemes ───────────
+// These Sass variables override just-the-docs defaults.
+
+$sidebar-color:           #232D4B;   // UVA navy
+$body-heading-color:      #232D4B;   // dark headings in content area
+$link-color:              #1a5276;   // readable blue for body links
+$btn-primary-color:       #E57200;   // UVA orange for buttons
+$body-background-color:   #ffffff;
+$body-text-color:         #1a1a2e;
+$nav-child-link-color:    rgba(255, 255, 255, 0.8);
+$header-height:           4.5rem;    // taller header to prevent title clipping
