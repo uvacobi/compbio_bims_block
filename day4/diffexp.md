@@ -340,7 +340,7 @@ You could write this file on your disk with `write.csv()` for instance to save a
 ~~~
 write.csv(all_genes_results, "all_genes.csv")
 ~~~
-{: language-r}
+{: .language-r}
 
 # 3. Volcano plot
 For each gene, this plot shows the gene fold change on the x-axis against the p-value plotted on the y-axis. 
