@@ -31,17 +31,17 @@ Students arrive with a broad range of computational experience. We do not expect
 
 | Day | Date | Topic |
 |-----|------|-------|
-| [Day 1]({{ site.baseurl }}{% link day1-unix.md %}) | Tuesday, September 8 | The UNIX Shell |
-| [Day 2]({{ site.baseurl }}{% link day2-r.md %}) | Wednesday, September 9 | Programming with R |
-| [Day 3]({{ site.baseurl }}{% link day3-review.md %}) | Thursday, September 10 | UNIX and R Review |
-| [Day 4]({{ site.baseurl }}{% link day4-rnaseq.md %}) | Friday, September 11 | RNA-seq Data Analysis |
+| [Day 1]({% link day1-unix.md %}) | Tuesday, September 8 | The UNIX Shell |
+| [Day 2]({% link day2-r.md %}) | Wednesday, September 9 | Programming with R |
+| [Day 3]({% link day3-review.md %}) | Thursday, September 10 | UNIX and R Review |
+| [Day 4]({% link day4-rnaseq.md %}) | Friday, September 11 | RNA-seq Data Analysis |
 {: .schedule-table }
 
 ---
 
 ## Start of Day 1
 
-We'll guide you through completing the [Setup]({{ site.baseurl }}{% link setup.md %}) page to enable UVA HPC access on your laptop.
+We'll guide you through completing the [Setup]({% link setup.md %}) page to enable UVA HPC access on your laptop.
 
 
 ---

@@ -409,7 +409,7 @@ frame by groups and applying a certain function to summarize the data.
 <center>
 <img src="{{ '/day2/fig/split_apply_combine.png' | relative_url }}" alt="split-apply-combine diagram" style="width: 500px;"/>
 </center>
-*Figure adapted from the Software Carpentry lesson, [R for Reproducible Scientific Analysis](https://swcarpentry.github.io/r-novice-gapminder/13-dplyr/)*
+*Figure adapted from the Software Carpentry lesson, [R for Reproducible Scientific Analysis](https://swcarpentry.github.io/r-novice-gapminder/12-dplyr.html)*
 
 We can also apply many other functions to individual columns to get other
 summary statistics. For example,we can use built-in functions like `mean()`,

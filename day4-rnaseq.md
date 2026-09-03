@@ -18,12 +18,12 @@ has_toc: false
 
 | Time | Activity |
 |------|----------|
-| 9:00 – 10:00 | [Introduction & QC with FastQC]({{ site.baseurl }}{% link day4/introduction.md %}) *(2 points)* |
-| 10:00 – 11:00 | [Aligning Reads with STAR]({{ site.baseurl }}{% link day4/aligning.md %}) |
-| 11:00 – 11:45 | [Quantifying Reads with featureCounts]({{ site.baseurl }}{% link day4/counting.md %}) |
-| 1:30 – 2:15 | [Differential Expression with DESeq2]({{ site.baseurl }}{% link day4/diffexp.md %}) *(2 points)* |
-| 2:15 – 3:00 | [Over-representation Analysis of GO Terms]({{ site.baseurl }}{% link day4/ora.md %}) |
-| 3:00 – 3:45 | [Gene Set Enrichment using GSEA/MSigDB]({{ site.baseurl }}{% link day4/gsea.md %}) |
+| 9:00 – 10:00 | [Introduction & QC with FastQC]({% link day4/introduction.md %}) *(2 points)* |
+| 10:00 – 11:00 | [Aligning Reads with STAR]({% link day4/aligning.md %}) |
+| 11:00 – 11:45 | [Quantifying Reads with featureCounts]({% link day4/counting.md %}) |
+| 1:30 – 2:15 | [Differential Expression with DESeq2]({% link day4/diffexp.md %}) *(2 points)* |
+| 2:15 – 3:00 | [Over-representation Analysis of GO Terms]({% link day4/ora.md %}) |
+| 3:00 – 3:45 | [Gene Set Enrichment using GSEA/MSigDB]({% link day4/gsea.md %}) |
 {: .schedule-table }
 
 ---

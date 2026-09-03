@@ -563,7 +563,7 @@ You can change this default behavior easily and try other clustering methods (se
 
 # References
 * [Kamil Slowikoski blog post about heatmap](https://slowkow.com/notes/pheatmap-tutorial/)
-* Z-score calculations: [link 1](https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/z-score/) and [link 2](https://www.datatechnotes.com/2018/02/z-score-with-r.html).
+* Z-score calculations: [link 1](https://www.statisticshowto.com/probability-and-statistics/z-score/) and [link 2](https://www.datatechnotes.com/2018/02/z-score-with-r.html).
 * [Type I and type II error rates in gene expression studies](https://www.ncbi.nlm.nih.gov/pubmed/28637422)
 * [p-value histograms explained](http://varianceexplained.org/statistics/interpreting-pvalue-histogram/)
 

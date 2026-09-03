@@ -60,8 +60,8 @@ a popular online forum.
   times
 - Be careful. While forums are very helpful, you can't know for sure if the
   advice you are getting is correct
-- See the [How to ask for R help](https://blog.revolutionanalytics.com/2014/01/how-to-ask-for-r-help.html)
-  blog post for more useful tips
+- See the [Getting help in the tidyverse](https://www.tidyverse.org/help/)
+  guide for more useful tips
 
 </div>
 

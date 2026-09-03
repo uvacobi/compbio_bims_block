@@ -86,9 +86,9 @@ The above code does the following step by step:
 4. `plot(x, y, xlab="mpg", ylab="wt")` creates a scatterplot with custom axis labels.
 5. `dev.off()` closes the PDF device, finalizing the file. It will print `null device 1` — this is normal and can be ignored.
 
-To view the plot, go to [https://ood.hpc.virginia.edu/pun/sys/dashboard](https://ood.hpc.virginia.edu/pun/sys/dashboard), and log in with your credentials. This will bring you to a unified dashboard that provides access to your HPC resources. From the top menu, open the `Files` tab and select `Home Directory` to launch a file explorer. Navigate to the `day2` folder, where you should find a file named `mpg_vs_wt.pdf`. Clicking on this file will open the plot directly in your browser. As the plot suggests, there might be a negative correlation between the two variables.
+To view the plot, go to [UVA Open OnDemand](https://ood.hpc.virginia.edu/pun/sys/dashboard), and log in with your credentials. This will bring you to a unified dashboard that provides access to your HPC resources. From the top menu, open the `Files` tab and select `Home Directory` to launch a file explorer. Navigate to the `day2` folder, where you should find a file named `mpg_vs_wt.pdf`. Clicking on this file will open the plot directly in your browser. As the plot suggests, there might be a negative correlation between the two variables.
 
-So, whenever you create a plot, save it as a PDF with a clear, descriptive name. You can then view the file through [https://ood.hpc.virginia.edu/pun/sys/dashboard](https://ood.hpc.virginia.edu/pun/sys/dashboard).
+So, whenever you create a plot, save it as a PDF with a clear, descriptive name. You can then view the file through [UVA Open OnDemand](https://ood.hpc.virginia.edu/pun/sys/dashboard).
 
 
 ## Loading the dataset
@@ -119,7 +119,7 @@ To build a ggplot, we will use the following basic template that can be used for
 ggplot(data = <DATA>, mapping = aes(<MAPPINGS>)) +  <GEOM_FUNCTION>()
 ```
 
-- use the `ggplot()` function and bind the plot to a specific data frame using the `data` argument. Here, we save it in a file named `scatterplot.pdf` which you can view through [https://ood.hpc.virginia.edu/pun/sys/dashboard](https://ood.hpc.virginia.edu/pun/sys/dashboard).
+- use the `ggplot()` function and bind the plot to a specific data frame using the `data` argument. Here, we save it in a file named `scatterplot.pdf` which you can view through [UVA Open OnDemand](https://ood.hpc.virginia.edu/pun/sys/dashboard).
 
 ```r
 pdf("scatterplot.pdf")
@@ -419,7 +419,7 @@ ggplot(data = variants, aes(x = DP, fill = sample_id)) +
 
 ## **`ggplot2`** themes
 
-In addition to [`theme_bw()`](https://ggplot2.tidyverse.org/reference/ggtheme.html), which changes the plot background to white, **`ggplot2`** comes with several other themes which can be useful to quickly change the look of your visualization. The complete list of themes is available at [https://ggplot2.tidyverse.org/reference/ggtheme.html](https://ggplot2.tidyverse.org/reference/ggtheme.html). `theme_minimal()` and `theme_light()` are popular, and `theme_void()` can be useful as a starting point to create a new hand-crafted theme.
+In addition to [`theme_bw()`](https://ggplot2.tidyverse.org/reference/ggtheme.html), which changes the plot background to white, **`ggplot2`** comes with several other themes which can be useful to quickly change the look of your visualization. The [complete list of themes](https://ggplot2.tidyverse.org/reference/ggtheme.html) is available in the ggplot2 documentation. `theme_minimal()` and `theme_light()` are popular, and `theme_void()` can be useful as a starting point to create a new hand-crafted theme.
 
 The [ggthemes](https://jrnold.github.io/ggthemes/reference/index.html) package provides a wide variety of options (including Microsoft Excel, [old](https://jrnold.github.io/ggthemes/reference/theme_excel.html) and [new](https://jrnold.github.io/ggthemes/reference/theme_excel_new.html)). The [**`ggplot2`** extensions website](https://exts.ggplot2.tidyverse.org/) provides a list of packages that extend the capabilities of **`ggplot2`**, including additional themes.
 
@@ -436,7 +436,7 @@ for inspiration. Here are some ideas:
 
 - See if you can change the size or shape of the plotting symbol.
 - Can you find a way to change the name of the legend? What about its labels?
-- Try using a different color palette (see the [Cookbook for R](https://www.cookbook-r.com/Graphs/Colors_\(ggplot2\)/)).
+- Try using a different color palette (see the [Cookbook for R](https://www.cookbook-r.com/Graphs/Colors_(ggplot2)/)).
   
 
 </div>

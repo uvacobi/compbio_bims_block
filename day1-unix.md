@@ -18,7 +18,7 @@ has_toc: false
 
 | Time | Activity |
 |------|----------|
-| 9:00 – 10:00 | Enable UVA HPC access ([Setup]({{ site.baseurl }}{% link setup.md %})) |
+| 9:00 – 10:00 | Enable UVA HPC access ([Setup]({% link setup.md %})) |
 | 10:00 – 10:15 | Log onto UVA HPC — first look |
 | 10:15 – 11:00 | Presentation: Introduction to UNIX |
 | 11:00 – 11:45 | Shell Activity: Lessons 1–3 *(2 points)* |
@@ -78,13 +78,13 @@ Work through the lessons in order. Each builds on the previous one.
 
 | # | Lesson | Estimated Time |
 |---|--------|---------------|
-| 1 | [Introducing the Shell]({{ site.baseurl }}{% link day1/01-intro.md %}) | 5 min |
-| 2 | [Navigating Files and Directories]({{ site.baseurl }}{% link day1/02-filedir.md %}) | 40 min |
-| 3 | [Working With Files and Directories]({{ site.baseurl }}{% link day1/03-create.md %}) | 35 min |
-| 4 | [Pipes and Filters]({{ site.baseurl }}{% link day1/04-pipefilter.md %}) | 35 min |
-| 5 | [Loops]({{ site.baseurl }}{% link day1/05-loop.md %}) | 50 min |
-| 6 | [Shell Scripts]({{ site.baseurl }}{% link day1/06-script.md %}) | 35 min |
-| 7 | [Finding Things]({{ site.baseurl }}{% link day1/07-find.md %}) | 25 min |
+| 1 | [Introducing the Shell]({% link day1/01-intro.md %}) | 5 min |
+| 2 | [Navigating Files and Directories]({% link day1/02-filedir.md %}) | 40 min |
+| 3 | [Working With Files and Directories]({% link day1/03-create.md %}) | 35 min |
+| 4 | [Pipes and Filters]({% link day1/04-pipefilter.md %}) | 35 min |
+| 5 | [Loops]({% link day1/05-loop.md %}) | 50 min |
+| 6 | [Shell Scripts]({% link day1/06-script.md %}) | 35 min |
+| 7 | [Finding Things]({% link day1/07-find.md %}) | 25 min |
 {: .schedule-table }
 
 ---

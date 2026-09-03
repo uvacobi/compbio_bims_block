@@ -124,4 +124,4 @@ Use AI as a **coding collaborator, not an oracle**. Treat its output the way you
 
 ## Going further
 
-To hit the ground running on Friday, have a look at the [Day 4: RNA-seq Analysis]({{ site.baseurl }}{% link day4-rnaseq.md %}) overview and skim the Introduction & QC lesson. You don't need to understand everything — arriving with a sense of the workflow and the dataset will make Friday's hands-on time much more productive.
+To hit the ground running on Friday, have a look at the [Day 4: RNA-seq Analysis]({% link day4-rnaseq.md %}) overview and skim the Introduction & QC lesson. You don't need to understand everything — arriving with a sense of the workflow and the dataset will make Friday's hands-on time much more productive.

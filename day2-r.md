@@ -79,13 +79,13 @@ To exit R at any time, type `q()` and press <KBD>Enter</KBD>. When asked whether
 
 | # | Lesson | Estimated Time |
 |---|--------|---------------|
-| 1 | [Introduction to R]({{ site.baseurl }}{% link day2/00-introduction.md %}) | 20 min |
-| 2 | [R Basics]({{ site.baseurl }}{% link day2/01-r-basics.md %}) | 40 min |
-| 3 | [Working with Data]({{ site.baseurl }}{% link day2/02-data-prelude.md %}) | 30 min |
-| 4 | [Factors and Data Frames]({{ site.baseurl }}{% link day2/03-basics-factors-dataframes.md %}) | 40 min |
-| 5 | [Tidyverse for Data Wrangling]({{ site.baseurl }}{% link day2/05-dplyr.md %}) | 40 min |
-| 6 | [Visualization with ggplot2]({{ site.baseurl }}{% link day2/06-data-visualization.md %}) | 40 min |
-| 7 | [Getting Help with R]({{ site.baseurl }}{% link day2/07-r-help.md %}) | 20 min |
+| 1 | [Introduction to R]({% link day2/00-introduction.md %}) | 20 min |
+| 2 | [R Basics]({% link day2/01-r-basics.md %}) | 40 min |
+| 3 | [Working with Data]({% link day2/02-data-prelude.md %}) | 30 min |
+| 4 | [Factors and Data Frames]({% link day2/03-basics-factors-dataframes.md %}) | 40 min |
+| 5 | [Tidyverse for Data Wrangling]({% link day2/05-dplyr.md %}) | 40 min |
+| 6 | [Visualization with ggplot2]({% link day2/06-data-visualization.md %}) | 40 min |
+| 7 | [Getting Help with R]({% link day2/07-r-help.md %}) | 20 min |
 {: .schedule-table }
 
 ---

@@ -33,7 +33,7 @@ The Intro to R for Genomics is a part of the Genomics Data Carpentry lessons. In
 This dataset was selected for several reasons, including:
 
 - Simple, but iconic NGS-problem: Examine a population where we want to characterize changes in sequence *a priori*
-- Dataset publicly available - in this case through the NCBI SRA ([http://www.ncbi.nlm.nih.gov/sra](https://www.ncbi.nlm.nih.gov/sra))
+- Dataset publicly available - in this case through the [NCBI SRA](https://www.ncbi.nlm.nih.gov/sra)
 
 ## Introduction to the dataset
 
@@ -158,13 +158,13 @@ Tenaillon O, Barrick JE, Ribeck N, Deatherage DE, Blanchard JL, Dasgupta A, Wu G
 Tempo and mode of genome
 evolution in a 50,000-generation experiment (2016) Nature. 536(7615): 165–170.
 [Paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4988878/), [Supplemental materials](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4988878/#)
-Data on NCBI SRA: [https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP064605](https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP064605)
-Data on EMBL-EBI ENA: [https://www.ebi.ac.uk/ena/data/view/PRJNA295606](https://www.ebi.ac.uk/ena/data/view/PRJNA295606)
+Data on NCBI SRA: [SRP064605](https://trace.ncbi.nlm.nih.gov/Traces/sra/?study=SRP064605)
+Data on EMBL-EBI ENA: [PRJNA295606](https://www.ebi.ac.uk/ena/data/view/PRJNA295606)
 
 This episode was adapted from the Data Carpentry Genomic lessons:
 
 - [Project organization and management for Genomics](https://datacarpentry.org/organization-genomics/data/)
-- [Data wrangling and processing for genomics](https://datacarpentry.org/wrangling-genomics/04-variant_calling/index.html)
+- [Data wrangling and processing for genomics](https://datacarpentry.org/wrangling-genomics/04-variant_calling.html)
 
 <div class="carpentries-keypoints" markdown="1">
 **Key Points**

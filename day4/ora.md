@@ -256,7 +256,7 @@ diff_arabidopsis_genes_annotated <- biomartr::biomart(genes = diff_genes$genes,
 ~~~
 {: .language-r}
 
-This gave us the second part which is the classification of genes "drawn" from the whole gene universe. The "drawing" is coming from the set of genes identified as differential (see [episode 06](../06-differential-analysis/index.html)).
+This gave us the second part which is the classification of genes "drawn" from the whole gene universe. The "drawing" is coming from the set of genes identified as differential (see the [differential expression lesson]({% link day4/diffexp.md %})).
 
 ~~~
 # performing the ORA for Gene Ontology Biological Process class
@@ -366,7 +366,7 @@ library("biomaRt")  # only use to remove cache bug
 ~~~
 {: .language-r}
 
-To see if your organism is referenced in the KEGG database, you can search this page: [https://www.genome.jp/kegg/catalog/org_list.html](https://www.genome.jp/kegg/catalog/org_list.html)
+To see if your organism is referenced in the KEGG database, you can search the [KEGG organism list](https://www.genome.jp/kegg/catalog/org_list.html).
 In our case, _Arabidopsis thaliana_ is referenced as "ath" in the KEGG database.
 
 You can also do this programmatically using R and the `clusterProfiler` package.
@@ -378,7 +378,7 @@ search_kegg_organism('Arabidopsis thaliana', by='scientific_name')
 
 ## 3.2 KEGG ORA analysis
 
-Performing the ORA analysis is then quite similar to what we've done with the [`GO analysis with clusterProfiler`](/07-functional-enrichment/index.html#34-ora-with-clusterprofiler).
+Performing the ORA analysis is then quite similar to what we've done with the [GO ORA analysis above](#23-ora-with-clusterprofiler).
 
 ~~~
 ora_analysis_kegg <- enrichKEGG(gene = diff_arabidopsis_genes_annotated$entrezgene_id,
