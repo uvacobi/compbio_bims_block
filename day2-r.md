@@ -20,8 +20,8 @@ has_toc: false
 |------|----------|
 | 9:00 – 9:15 | Accessing R on UVA HPC |
 | 9:15 – 10:00 | [Presentation: Introduction to R]({{ site.baseurl }}/assets/files/B3.5p_Day2_R.pdf) |
-| 10:00 – 11:45 | R Activity: Lessons 1–5 *(2 points)* |
-| 1:00 – 4:00 | R Activity: Lessons 6–8 |
+| 10:00 – 11:45 | R Activity: Lessons 1–4 *(2 points)* |
+| 1:00 – 4:00 | R Activity: Lessons 5–7 |
 {: .schedule-table }
 
 ---
