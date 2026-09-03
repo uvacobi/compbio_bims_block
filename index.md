@@ -39,9 +39,10 @@ Students arrive with a broad range of computational experience. We do not expect
 
 ---
 
-## Before You Begin
+## Start of Day 1
 
-Complete the [Setup]({{ site.baseurl }}{% link setup.md %}) page to enable UVA HPC access on your laptop before Day 1.
+We'll guide you through completing the [Setup]({{ site.baseurl }}{% link setup.md %}) page to enable UVA HPC access on your laptop.
+
 
 ---
 
